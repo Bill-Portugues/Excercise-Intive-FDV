@@ -10,7 +10,7 @@ class Rentals:
 
     def __init__(self, Prices, Discount_Rate, Family_Discount):
 
-        self.Prices = Prices                    #Dictionary that stores Type and Price of each category {"Hour":5}
+        self.Prices = Prices                    #Dictionary that stores Type and Price of each category Example {"Hour":5}
         self.Discount_Rate = Discount_Rate      #Percentage to apply in case it triggers the family Discount
         self.Family_Discount = Family_Discount  #List of two elements ([3,5]), first the minimum neccesary and second the maximum possible, to obtaing the discount
 
